@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     }
 
     const namesList = rows.map((row) => row.name);
-    res.send(`<html><body><ul>${namesList.map(name => `<li>${name}</li>`).join('')}</ul></body></html>`);
+    res.send(`<html><body><h1>Friends</h1><ul>${namesList.map(name => `<li>${name}</li>`).join('')}</ul></body></html>`);
   });
 });
 
