@@ -3,7 +3,7 @@
     "express": "^4.18.2",
     "sqlite3": "^5.1.6"
   },
-  "script": {
+  "scripts": {
     "start": "node main.js"
   }
 }
